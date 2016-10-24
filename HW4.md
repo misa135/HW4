@@ -83,4 +83,4 @@ Nbootstrap(500,xn)
 ![](HW4_files/figure-html/unnamed-chunk-5-1.png)<!-- -->
 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
