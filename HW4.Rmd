@@ -45,7 +45,7 @@ Nbootstrap <- function(R , x){
 
 Histogram and Normal Q-Q plot of 50 boostrap samples, population of 20 elements.
  
-```{r ,echo=FALSE}
+```{r }
 set.seed(1)
 xn<-c(rnorm(20))
 Nbootstrap(50,xn)
@@ -55,19 +55,17 @@ Nbootstrap(50,xn)
 
 Histogram and Normal Q-Q plot of 500 boostrap samples, population of 20 elements.
  
-```{r, echo=FALSE}
+```{r}
 set.seed(1)
 xn<-c(rnorm(20))
 Nbootstrap(500,xn)
-
-
 ```
 
 ### Exponential Distribution With Two Different Sample Sizes
 
 Histogram and Normal Q-Q plot of 50 boostrap samples, population of 20 elements.
  
-```{r ,echo=FALSE}
+```{r }
 set.seed(1)
 xn<-c(rexp(20))
 Nbootstrap(50,xn)
@@ -77,7 +75,7 @@ Nbootstrap(50,xn)
 
 Histogram and Normal Q-Q plot of 500 boostrap samples, population of 20 elements.
  
-```{r, echo=FALSE}
+```{r}
 set.seed(1)
 xn<-c(rnorm(20))
 Nbootstrap(500,xn)
